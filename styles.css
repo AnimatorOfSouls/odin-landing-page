@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.header {
+  background-color: #1F2937;
+  padding: 0 10%;
+  color: white;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  padding: 100px 0;
+  gap: 30px;
+  align-items: center;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero img {
+  width: 100%;
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.hero p, nav li a {
+  font-weight: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.info h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.info p {
+  color: #616161;
+}
+
+.info-cards {
+  display: flex;
+  gap: 5%;
+  margin: 30px 0;
+  justify-content: center;
+}
+
+.info-card {
+  width: 200px;
+}
+
+.info-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #546680;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 10%;
+}
+
+.quote span {
+  text-align: right;
+  color: #1F2937;
+  font-weight: 500;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 10%;
+}
+
+.box {
+  background-color: #3882F6;
+  color: white;
+  width: 100%;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.box p {
+  font-size: 14px;
+}
+
+.box button {
+  border: 1px solid white;
+}
+
+footer {
+  text-align: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+footer a {
+  color: white;
+}
